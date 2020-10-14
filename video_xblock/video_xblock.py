@@ -26,7 +26,7 @@ from xblock.fragment import Fragment
 from xblock.validation import ValidationMessage
 from xblockutils.studio_editable import StudioEditableXBlockMixin
 
-print(sys.path)
+print sys.path
 from . import __version__
 from .backends.base import BaseVideoPlayer
 from .constants import PlayerName, TranscriptSource
