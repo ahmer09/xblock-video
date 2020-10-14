@@ -16,6 +16,7 @@ import datetime
 import json
 import logging
 import os.path
+import backends.base
 
 import requests
 from webob import Response
