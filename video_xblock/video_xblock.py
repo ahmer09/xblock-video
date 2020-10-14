@@ -16,7 +16,7 @@ import datetime
 import json
 import logging
 import os.path
-import backends.base
+import sys
 
 import requests
 from webob import Response
@@ -26,6 +26,7 @@ from xblock.fragment import Fragment
 from xblock.validation import ValidationMessage
 from xblockutils.studio_editable import StudioEditableXBlockMixin
 
+print(sys.path)
 from . import __version__
 from .backends.base import BaseVideoPlayer
 from .constants import PlayerName, TranscriptSource
